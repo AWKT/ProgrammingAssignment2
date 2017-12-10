@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This is the work for the R Programming Course Week 3 Assignment
+## Two main functions make a vector and check if the mean has been calcd
 
-## Write a short comment describing this function
+
+##The makeVector Function has input X and makes a vector.
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -18,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+##This function first checks to see if the mean of the previously calculated vector
+##has already been calculated.  If it hasn't then it will calculate the mean.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
